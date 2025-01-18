@@ -29,6 +29,18 @@
         "ideas",
         "review"
       ]
+    },
+    {
+      "login": "hjki156",
+      "name": "Zihan Hu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/56503764?v=4",
+      "profile": "https://github.com/hjki156",
+      "contributions": [
+        "tool",
+        "content",
+        "ideas",
+        "infra"
+      ]
     }
   ]
 }
