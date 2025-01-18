@@ -86,6 +86,7 @@ Project Nebu 目前命制了试题的科目有英语和思想政治，均由选�
   <tbody>
     <tr>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/SEALYikang"><img src="https://avatars.githubusercontent.com/u/63947079?v=4?s=100" width="100px;" alt="SEALYikang"/><br /><sub><b>SEALYikang</b></sub></a><br /><a href="#content-SEALYikang" title="Content">🖋</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/hjki156"><img src="https://avatars.githubusercontent.com/u/56503764?v=4?s=100" width="100px;" alt="Zihan Hu"/><br /><sub><b>Zihan Hu</b></sub></a><br /><a href="#tool-hjki156" title="Tools">🔧</a> <a href="#content-hjki156" title="Content">🖋</a> <a href="#ideas-hjki156" title="Ideas, Planning, & Feedback">🤔</a> <a href="#infra-hjki156" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a></td>
     </tr>
   </tbody>
 </table>
