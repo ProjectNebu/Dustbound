@@ -82,6 +82,13 @@ Project Nebu 目前命制了试题的科目有英语和思想政治，均由选�
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
 <!-- markdownlint-disable -->
+<table>
+  <tbody>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/SEALYikang"><img src="https://avatars.githubusercontent.com/u/63947079?v=4?s=100" width="100px;" alt="SEALYikang"/><br /><sub><b>SEALYikang</b></sub></a><br /><a href="#content-SEALYikang" title="Content">🖋</a></td>
+    </tr>
+  </tbody>
+</table>
 
 <!-- markdownlint-restore -->
 <!-- prettier-ignore-end -->
