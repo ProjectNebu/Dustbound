@@ -16,6 +16,19 @@
       "contributions": [
         "content"
       ]
+    },
+    {
+      "login": "LyRin-owo",
+      "name": "零音LyRin-owo",
+      "avatar_url": "https://avatars.githubusercontent.com/u/141834038?v=4",
+      "profile": "https://lyrin-owo.top/",
+      "contributions": [
+        "infra",
+        "content",
+        "design",
+        "ideas",
+        "review"
+      ]
     }
   ]
 }
