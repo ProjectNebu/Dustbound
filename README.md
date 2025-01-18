@@ -75,6 +75,20 @@ Project Nebu 目前命制了试题的科目有英语和思想政治，均由选�
 
 除试题和答题卡以外，其他内容由 [@SEALYikang](https://github.com/SEALYikang) 后续公布。
 
+## 🤝 贡献者
+
+感谢以下贡献者为 Project Nebu 和/或 赴尘杯 / DustBound 增砖添瓦。
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+<!--markdownlint-disable MD033 MD036 MD041-->
+
 ## 🌟 Stars 历史
 
 <div align="center">
