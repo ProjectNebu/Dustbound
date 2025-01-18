@@ -1,4 +1,46 @@
 {
   "projectName": "Dustbound",
-  "projectOwner": "ProjectNebu"
+  "projectOwner": "ProjectNebu",
+  "files": [
+    "README.md"
+  ],
+  "commitType": "docs",
+  "commitConvention": "angular",
+  "contributorsPerLine": 7,
+  "contributors": [
+    {
+      "login": "SEALYikang",
+      "name": "SEALYikang",
+      "avatar_url": "https://avatars.githubusercontent.com/u/63947079?v=4",
+      "profile": "https://github.com/SEALYikang",
+      "contributions": [
+        "content"
+      ]
+    },
+    {
+      "login": "LyRin-owo",
+      "name": "零音LyRin-owo",
+      "avatar_url": "https://avatars.githubusercontent.com/u/141834038?v=4",
+      "profile": "https://lyrin-owo.top/",
+      "contributions": [
+        "infra",
+        "content",
+        "design",
+        "ideas",
+        "review"
+      ]
+    },
+    {
+      "login": "hjki156",
+      "name": "Zihan Hu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/56503764?v=4",
+      "profile": "https://github.com/hjki156",
+      "contributions": [
+        "tool",
+        "content",
+        "ideas",
+        "infra"
+      ]
+    }
+  ]
 }
