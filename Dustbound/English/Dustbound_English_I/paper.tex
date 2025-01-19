@@ -49,7 +49,7 @@
 \begin{flushleft}
   {\bfseries 第二部分 \hspace{0.5em} 阅读理解（共两节，满分 50 分）}
 
-{\bfseries 第一节（共 15 小题；每小题 2.5 分，满分 37.5 分）}
+  {\bfseries 第一节（共 15 小题；每小题 2.5 分，满分 37.5 分）}
 \end{flushleft}
 
 阅读下列短文，从每题所给的 A、B、C 和 D 四个选项中，选出最佳答案。
@@ -124,11 +124,11 @@ If dual-booting with Windows, backup the original \texttt{bootmgfw.efi} first as
 A message will show up that says \textit{Failed to Start loader... I will now execute HashTool.} To use HashTool for enrolling the hash of \texttt{loader.efi} and \texttt{vmlinuz.efi}, follow these steps. These steps assume titles for a remastered archiso installation media. The exact titles you will get depend on your boot loader setup.
 
 \begin{itemize}
-\item Select \textit{OK}.
+  \item Select \textit{OK}.
 
-\item In the HashTool main menu, select \textit{Enroll Hash}, choose \texttt{\\loader.efi} and confirm with \textit{Yes}. Again, select \textit{Enroll Hash} and \texttt{archiso} to enter the archiso directory, then select \texttt{vmlinuz.efi} and confirm with \textit{Yes}. Then choose \textit{Exit} to return to the boot device selection menu.
+  \item In the HashTool main menu, select \textit{Enroll Hash}, choose \texttt{\\loader.efi} and confirm with \textit{Yes}. Again, select \textit{Enroll Hash} and \texttt{archiso} to enter the archiso directory, then select \texttt{vmlinuz.efi} and confirm with \textit{Yes}. Then choose \textit{Exit} to return to the boot device selection menu.
 
-\item In the boot device selection menu choose \textit{Arch Linux archiso x86\_64 UEFI CD}.
+  \item In the boot device selection menu choose \textit{Arch Linux archiso x86\_64 UEFI CD}.
 \end{itemize}
 
 \needspace{2\baselineskip}
@@ -148,88 +148,88 @@ The only way to prevent anyone with physical access from disabling Secure Boot i
 
 \needspace{4\baselineskip}
 \begin{question}
-Which of the following statements about Secure Boot is INCORRECT?
-\begin{choices}
-\item Secure Boot represents a critical security mechanism embedded within the UEFI standard.
+  Which of the following statements about Secure Boot is INCORRECT?
+  \begin{choices}
+  \item Secure Boot represents a critical security mechanism embedded within the UEFI standard.
 
-\item Secure Boot functions by enforcing a policy that restricts the execution of boot-time binaries to those that are cryptographically signed and thereby verified as authentic.
+  \item Secure Boot functions by enforcing a policy that restricts the execution of boot-time binaries to those that are cryptographically signed and thereby verified as authentic.
 
-\item Secure Boot ensures the integrity of core boot components and the efficacy of system encryption relies on the presence or state of Secure Boot.
+  \item Secure Boot ensures the integrity of core boot components and the efficacy of system encryption relies on the presence or state of Secure Boot.
 
-\item Secure Boot operates independently of other security measures and provides an additional layer of defense against pre-boot attacks.
-\end{choices}
+  \item Secure Boot operates independently of other security measures and provides an additional layer of defense against pre-boot attacks.
+  \end{choices}
 \end{question}
 
 \needspace{4\baselineskip}
 \begin{question}
-Which of the following statements about the possible usage and configuration of Secure Boot is CORRECT?
+  Which of the following statements about the possible usage and configuration of Secure Boot is CORRECT?
 
-\begin{choices}
-\item Recent iterations of Xiaomi laptops give users access to the configuration of Secure Boot within the firmware only if the administrator password remains active after setting up. Users can possibly set the password in the ``Security'' section in the firmware settings.
+  \begin{choices}
+  \item Recent iterations of Xiaomi laptops give users access to the configuration of Secure Boot within the firmware only if the administrator password remains active after setting up. Users can possibly set the password in the ``Security'' section in the firmware settings.
 
-\item Developers of Linux distributions have the capability to assist users to employ PreLoader which includes HashTool, a mechanism which facilitates the integration of the keys utilized for digitally signing EFI binary files into the Machine Owner Key List (MokList) of the user's laptop.
+  \item Developers of Linux distributions have the capability to assist users to employ PreLoader which includes HashTool, a mechanism which facilitates the integration of the keys utilized for digitally signing EFI binary files into the Machine Owner Key List (MokList) of the user's laptop.
 
-\item When configuring Secure Boot using PreLoader and encountering issues with booting a custom NVRAM entry, it is always necessary to copy \texttt{HashTool.efi} and \texttt{loader.efi} to the UEFI system's default automatic boot loader location. Subsequently, \texttt{PreLoader.efi} must be copied to the default boot loader location used by Windows systems.
+  \item When configuring Secure Boot using PreLoader and encountering issues with booting a custom NVRAM entry, it is always necessary to copy \texttt{HashTool.efi} and \texttt{loader.efi} to the UEFI system's default automatic boot loader location. Subsequently, \texttt{PreLoader.efi} must be copied to the default boot loader location used by Windows systems.
 
-\item During the boot process, suppose HashTool is used to enroll the hashes of \texttt{loader.efi} and \texttt{vmlinuz.efi}. Start by selecting \textit{OK} to begin. Enroll the hash for \texttt{loader.efi} by choosing \textit{Enroll Hash} and confirming with \textit{Yes}, and then repeat the process for \texttt{vmlinuz.efi}. Finally, exit HashTool to return to the boot device selection menu, and select the appropriate Arch Linux boot option (such as \textit{Arch Linux archiso x86\_64 UEFI CD}), depending on your boot loader configuration, to start the system.
-\end{choices}
+  \item During the boot process, suppose HashTool is used to enroll the hashes of \texttt{loader.efi} and \texttt{vmlinuz.efi}. Start by selecting \textit{OK} to begin. Enroll the hash for \texttt{loader.efi} by choosing \textit{Enroll Hash} and confirming with \textit{Yes}, and then repeat the process for \texttt{vmlinuz.efi}. Finally, exit HashTool to return to the boot device selection menu, and select the appropriate Arch Linux boot option (such as \textit{Arch Linux archiso x86\_64 UEFI CD}), depending on your boot loader configuration, to start the system.
+  \end{choices}
 \end{question}
 
 \needspace{4\baselineskip}
 \begin{question}
-Which content is possibly included in \underline{Before booting the OS}?
+  Which content is possibly included in \underline{Before booting the OS}?
 
-\needspace{3\baselineskip}
-A.
-\begin{quote}
-  At this point, one has to look at the firmware setup. If the machine was booted and is running, in most cases it will have to be rebooted.
+  \needspace{3\baselineskip}
+  A.
+  \begin{quote}
+    At this point, one has to look at the firmware setup. If the machine was booted and is running, in most cases it will have to be rebooted.
 
-  You may access the firmware configuration by pressing a special key during the boot process. The key to use depends on the firmware. It is usually one of Esc, F2, Del or possibly another Fn key. Sometimes the right key is displayed for a short while at the beginning of the boot process. The motherboard manual usually records it. You might want to press the key, and keep pressing it, immediately following powering on the machine, even before the screen actually displays anything.
+    You may access the firmware configuration by pressing a special key during the boot process. The key to use depends on the firmware. It is usually one of Esc, F2, Del or possibly another Fn key. Sometimes the right key is displayed for a short while at the beginning of the boot process. The motherboard manual usually records it. You might want to press the key, and keep pressing it, immediately following powering on the machine, even before the screen actually displays anything.
 
-  After entering the firmware setup, be careful not to change any settings without prior intention. Usually there are navigation instructions, and short help for the settings, at the bottom of each setup screen. The setup itself might be composed of several pages. You will have to navigate to the correct place. The interesting setting might be simply denoted by secure boot, which can be set on or off.
-\end{quote}
+    After entering the firmware setup, be careful not to change any settings without prior intention. Usually there are navigation instructions, and short help for the settings, at the bottom of each setup screen. The setup itself might be composed of several pages. You will have to navigate to the correct place. The interesting setting might be simply denoted by secure boot, which can be set on or off.
+  \end{quote}
 
-\needspace{3\baselineskip}
-B.
-\begin{quote}
-  There are certain conditions making for an ideal setup of Secure boot:
+  \needspace{3\baselineskip}
+  B.
+  \begin{quote}
+    There are certain conditions making for an ideal setup of Secure boot:
 
-  \begin{itemize}
-    \item UEFI considered mostly trusted (despite having some well known criticisms and vulnerabilities) and necessarily protected by a strong password.
-    \item Default manufacturer/third party keys are not in use, as they have been shown to weaken the security model of Secure Boot by a great margin.
-    \item UEFI directly loads a user-signed EFI boot stub-compatible unified kernel image (no boot manager), including microcode (if applicable) and initramfs so as to maintain throughout the boot process the chain of trust established by Secure Boot and reduce the attack surface.
-    \item Use of full drive encryption, so that the tools and files involved in the kernel image creation and signing process cannot be accessed and tampered with by someone having physical access to the machine.
-    \item Some further improvements may be obtained by using a TPM.
-  \end{itemize}
+    \begin{itemize}
+      \item UEFI considered mostly trusted (despite having some well known criticisms and vulnerabilities) and necessarily protected by a strong password.
+      \item Default manufacturer/third party keys are not in use, as they have been shown to weaken the security model of Secure Boot by a great margin.
+      \item UEFI directly loads a user-signed EFI boot stub-compatible unified kernel image (no boot manager), including microcode (if applicable) and initramfs so as to maintain throughout the boot process the chain of trust established by Secure Boot and reduce the attack surface.
+      \item Use of full drive encryption, so that the tools and files involved in the kernel image creation and signing process cannot be accessed and tampered with by someone having physical access to the machine.
+      \item Some further improvements may be obtained by using a TPM.
+    \end{itemize}
 
-  A simple and fully self-reliant setup is described in \underline{Using your own keys}, while \allowbreak \underline{Using a signed boot loader} makes use of intermediate tools signed by a third-party.
-\end{quote}
+    A simple and fully self-reliant setup is described in \underline{Using your own keys}, while \allowbreak \underline{Using a signed boot loader} makes use of intermediate tools signed by a third-party.
+  \end{quote}
 
-\needspace{3\baselineskip}
-C.
-\begin{quote}
-  Replacing the platform keys with your own can end up bricking hardware on some machines, including laptops, making it impossible to get into the firmware settings to rectify the situation. This is due to the fact that some device (e.g GPU) firmware (OpROMs), that get executed during boot, are signed using Microsoft 3rd Party UEFI CA certificate or vendor certificates. This is the case in many Lenovo Thinkpad X, P and T series laptops which uses the Lenovo CA certificate to sign UEFI applications and firmware.
+  \needspace{3\baselineskip}
+  C.
+  \begin{quote}
+    Replacing the platform keys with your own can end up bricking hardware on some machines, including laptops, making it impossible to get into the firmware settings to rectify the situation. This is due to the fact that some device (e.g GPU) firmware (OpROMs), that get executed during boot, are signed using Microsoft 3rd Party UEFI CA certificate or vendor certificates. This is the case in many Lenovo Thinkpad X, P and T series laptops which uses the Lenovo CA certificate to sign UEFI applications and firmware.
 
-  \textbf{DO NOT} copy the \texttt{noPK.auth} file to the EFI system partition (ESP) of your PC! If you do this, and someone e.g. steals your PC, this person can delete the personal Platform Key in the UEFI Secure Boot firmware again, turn on ``Setup Mode'' on your PC again and replace your Secure Boot Keys (PK, KEK, db, dbx) with their own Platform Key, thereby defeating the whole purpose of UEFI Secure Boot. Only you should be able to replace the Platform Key, so only you should have access to the \texttt{noPK.auth} file. Therefore keep the \texttt{noPK.auth} file in a secret, safe place where only you have access to.
-\end{quote}
+    \textbf{DO NOT} copy the \texttt{noPK.auth} file to the EFI system partition (ESP) of your PC! If you do this, and someone e.g. steals your PC, this person can delete the personal Platform Key in the UEFI Secure Boot firmware again, turn on ``Setup Mode'' on your PC again and replace your Secure Boot Keys (PK, KEK, db, dbx) with their own Platform Key, thereby defeating the whole purpose of UEFI Secure Boot. Only you should be able to replace the Platform Key, so only you should have access to the \texttt{noPK.auth} file. Therefore keep the \texttt{noPK.auth} file in a secret, safe place where only you have access to.
+  \end{quote}
 
-\needspace{3\baselineskip}
-D.
-\begin{quote}
-  Point the current boot device to the one which has the Arch Linux installation medium. Typically it is achieved by pressing a key during the POST phase, as indicated on the splash screen. Refer to your motherboard's manual for details.
+  \needspace{3\baselineskip}
+  D.
+  \begin{quote}
+    Point the current boot device to the one which has the Arch Linux installation medium. Typically it is achieved by pressing a key during the POST phase, as indicated on the splash screen. Refer to your motherboard's manual for details.
 
-  When the installation medium's boot loader menu appears,
+    When the installation medium's boot loader menu appears,
 
-  \begin{itemize}
-    \item if you used the ISO, select Arch Linux install medium and press Enter to enter the installation environment.
+    \begin{itemize}
+      \item if you used the ISO, select Arch Linux install medium and press Enter to enter the installation environment.
 
-    \item if you used the Netboot image, choose a geographically close mirror from Mirror menu, then select Boot Arch Linux and press Enter.
-  \end{itemize}
+      \item if you used the Netboot image, choose a geographically close mirror from Mirror menu, then select Boot Arch Linux and press Enter.
+    \end{itemize}
 
-  You will be logged in on the first virtual console as the root user, and presented with a Zsh shell prompt.
+    You will be logged in on the first virtual console as the root user, and presented with a Zsh shell prompt.
 
-  To switch to a different console—for example, to view this guide with Lynx alongside the installation—use the Alt+arrow shortcut. To edit configuration files, mcedit, nano and vim are available. See \texttt{pkglist.x86\_64.txt} for a list of the packages included in the installation medium.
-\end{quote}
+    To switch to a different console—for example, to view this guide with Lynx alongside the installation—use the Alt+arrow shortcut. To edit configuration files, mcedit, nano and vim are available. See \texttt{pkglist.x86\_64.txt} for a list of the packages included in the installation medium.
+  \end{quote}
 \end{question}
 
 \needspace{4\baselineskip}
@@ -237,7 +237,7 @@ D.
 
 {\centering \bfseries Passerine / Dream SMP Fanwork - Chapter 1 \par}
 
-``You're a bastard,'' Techno said playfully, even as the voices screamed, ``Run, run, run.'' He took Philza's offered hand and pulled himself up beside the man that he was sure could have cut him in two, no matter how dulled the sword's edge was. As Philza patiently moved Techno through all the things he'd done wrong—small things like foot placement and his hilt grip being an inch off—Techno found it equal parts amusing and frightening that despite his eons of bloody fighting, it took only a few minutes of sparring for Philza to find flaws in his technique. But then again, Techno's technique wasn't particularly polished; it took only one brutal swing to fell most people. Something told him that Philza would be harder to kill than that.
+``You're a bastard,'' Techno said playfully, even as the voices screamed, Run, run, run.'' He took Philza's offered hand and pulled himself up beside the man that he was sure could have cut him in two, no matter how dulled the sword's edge was. As Philza patiently moved Techno through all the things he'd done wrong—small things like foot placement and his hilt grip being an inch off—Techno found it equal parts amusing and frightening that despite his eons of bloody fighting, it took only a few minutes of sparring for Philza to find flaws in his technique. But then again, Techno's technique wasn't particularly polished; it took only one brutal swing to fell most people. Something told him that Philza would be harder to kill than that.
 
 They conquered nations, he and his golden-haired friend. They were bathed in glory, twin gods shining in the middle of bloody fields. But as their empire grew, so did their enemies. They came in droves, day after day, and before long Techno had forgotten what peace tasted like. The days were long and the nights were longer; every flicker of movement was a spy in the shadows, every ally was a potential traitor, every word was a declaration of war. Their home had become a target for a thousand armies.
 
@@ -251,49 +251,83 @@ In the end, he knew, it would all be the same. The world would end, and he would
 
 \needspace{4\baselineskip}
 \begin{question}
-What is the relationship between Technoblade and Philza in the story?
-\begin{choices}
+  What is the relationship between Technoblade and Philza in the story?
+  \begin{choices}
   \item They are twin gods who have conquered nations and are bathed in glory.
   \item They are friends who have fought side by side and have grown apart over time.
   \item They are enemies who have fought each other for eons and have never been able to kill each other.
   \item They are allies who have been betrayed by their enemies and have been forced to abandon their empire.
-\end{choices}
+  \end{choices}
 \end{question}
 
 \needspace{4\baselineskip}
 \begin{question}
-What is the main reason for Technoblade to abandon his empire and wander the world?
-\begin{choices}
+  What is the main reason for Technoblade to abandon his empire and wander the world?
+  \begin{choices}
   \item He was bored with the empire and wanted to find new challenges.
   \item He was betrayed by his allies and was forced to leave the empire.
   \item He was haunted by the voices in his head and was unable to find peace.
   \item He was tired of fighting and wanted to find a way to end the world.
-\end{choices}
+  \end{choices}
 \end{question}
 
 \needspace{4\baselineskip}
 \begin{question}
-What is the author's attitude towards the relationship between Technoblade and Philza?
-\begin{choices}
+  What is the author's attitude towards the relationship between Technoblade and Philza?
+  \begin{choices}
   \item Neutral.
   \item Sympathetic.
   \item Critical.
   \item Humorous.
-\end{choices}
+  \end{choices}
 \end{question}
 
 \needspace{4\baselineskip}
 \begin{question}
-What is the main theme of the story?
-\begin{choices}
+  What is the main theme of the story?
+  \begin{choices}
   \item The importance of friendship and loyalty.
   \item The inevitability of conflict and betrayal.
   \item The futility of power and glory.
   \item The loneliness of eternal existence.
-\end{choices}
+  \end{choices}
 \end{question}
 
+\needspace{4\baselineskip}
+\begin{flushleft}
+  {\bfseries 第二节（共 5 小题；每小题 2.5 分，满分 12.5 分）}
+\end{flushleft}
 
+阅读下面短文，从短文后的选项中选出可以填入空白处的最佳选项。选项中有两项为多余选项。
+
+{\centering \bfseries Why fairy tales are really scary tales \par}
+
+\begin{center}
+  \texttt{Some people think that fairy tales are just stories to amuse children, but their universal and enduring appeal may be due to more serious reasons}
+\end{center}
+
+People of every culture tell each other fairy tales, but the same story often takes a variety of forms in different parts of the world. In the story of \textit{Little Red Riding Hood} that European children are familiar with, a young girl on the way to see her grandmother meets a wolf and tells him where she is going. The wolf runs on ahead and disposes of the grandmother, then gets into bed dressed in the grandmother's clothes to wait for \textit{Little Red Riding Hood}. You may think you know the story—but which version? In some versions, the wolf swallows up the grandmother, while in others it locks her in a cupboard. In some stories Red Riding Hood gets the better of the wolf on her own, while in others a hunter or a woodcutter hears her cries and comes to her rescue.
+
+The universal appeal of these tales is frequently attributed to the idea that they contain cautionary messages: in the case of \textit{Little Red Riding Hood}, to listen to your mother, and avoid talking to strangers. ``It might be what we find interesting about this story is that it's got this survival relevant information in it,'' says anthropologist Jamie Tehrani at Durham University in the UK. But his research suggests otherwise. ``We have this huge gap in our knowledge about the history and prehistory of storytelling, despite the fact that we know this genre is an incredibly ancient one,'' he says. That hasn't stopped anthropologists, folklorists and other academics devising theories to explain the importance of fairy tales in human society. Now Tehrani has found a way to test these ideas, borrowing a technique from evolutionary biologists.
+
+To work out the evolutionary history, development and relationships among groups of organisms, biologists compare the characteristics of living species in a process called ``phylogenetic analysis''. Tehrani has used the same approach to compare related versions of fairy tales to discover how they have evolved and which elements have survived longest.
+
+Tehrani's analysis focused on \textit{Little Red Riding Hood} in its many forms, which include another Western fairy tale known as The Wolf and the Kids. Checking for variants of these two tales and similar stories from Africa, East Asia and other regions, he ended up with 58 stories recorded from oral traditions. Once his phylogenetic analysis had established that they were indeed related, he used the same methods to explore how they have developed and altered over time.
+
+First he tested some assumptions about which aspects of the story alter least as it evolves, indicating their importance. Folklorists believe that what happens in a story is more central to the story than the characters in it—that visiting a relative, only to be met by a scary animal in disguise, is more fundamental than whether the visitor is a little girl or three siblings, or the animal is a tiger instead of a wolf.
+
+However, Tehrani found no significant difference in the rate of evolution of incidents compared with that of characters. ``Certain episodes are very stable because they are crucial to the story, but there are lots of other details that can evolve quite freely,'' he says. Neither did his analysis support the theory that the central section of a story is the most conserved part. He found no significant difference in the flexibility of events there compared with the beginning or the end.
+
+But the really big surprise came when he looked at the cautionary elements of the story. ``Studies on hunter-gatherer folk tales suggest that these narratives include really important information about the environment and the possible dangers that may be faced there—stuff that's relevant to survival,'' he says. Yet in his analysis such elements were just as flexible as seemingly trivial details. What, then, is important enough to be reproduced from generation to generation?
+
+The answer, it would appear, is fear—blood-thirsty and gruesome aspects of the story, such as the eating of the grandmother by the wolf turned out to be the best preserved of all. Why are these details retained by generations of storytellers, when other features are not? Tehrani has an idea: ``In an oral context, a story won't survive because of one great teller. \fillin[A]'' Maybe being swallowed whole by a wolf, then cut out of its stomach alive is so gripping that it helps the story remain popular, no matter how badly it's told.
+
+Jack Zipes at the University of Minnesota, Minneapolis, is unconvinced by Tehrani's views on fairy tales. ``Even if they're gruesome, they won't stick unless they matter,'' he says. He believes the perennial theme of women as victims in stories like \textit{Little Red Riding Hood} explains why they continue to feel relevant. But Tehrani points out that although this is often the case in Western versions, it is not always true elsewhere. In Chinese and Japanese versions, often known as \textit{The Tiger Grandmother}, the villain is a woman, and in both Iran and Nigeria, the victim is a boy.
+
+Mathias Clasen at Aarhus University in Denmark isn't surprised by Tehrani's findings. ``Habits and morals change, but the things that scare us, and the fact that we seek out entertainment that's designed to scare us—those are constant,'' he says. Clasen believes that scary stories teach us what it feels like to be afraid without having to experience real danger, and so build up resistance to negative emotions.
+
+\begin{choices}
+\item It also needs to be interesting when it's told by someone who's not necessarily a great storyteller.
+\end{choices}
 
 \end{document}
-
